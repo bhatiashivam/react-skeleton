@@ -1,14 +1,14 @@
 # Skeleton Screens with React ⚙️🌟
 ---
+#### Project Screenshot
+
+<img src='https://github.com/bhatiashivam/react-skeleton/blob/main/github_assets/project_screenshot.png?raw=true' width="500" />
+
+---
 ### What are Skeletons?
 - Skeleton screens (as splash screens), when used to indicate that a screen is loading, are perceived as being shorter in duration when compared against a blank screen (our control) and a spinner.
 - Skeleton screens should not block gradual content loads (real content should replace skeleton objects immediately when the data is available).
 - In this project, use of motion within the skeleton objects is achieved to retain user attention
-
----
-## Project Screenshot
-
-<img src='https://github.com/bhatiashivam/react-skeleton/blob/main/github_assets/project_screenshot.png?raw=true' width="500" />
 
 ---
 ## Made with:
