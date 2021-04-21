@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+import Skeleton from '@material-ui/lab/Skeleton';
+import Avatar from '@material-ui/core/Avatar';
+
 const User = () => {
     const [profile, setProfile] = useState(null);
 
@@ -24,15 +27,53 @@ const User = () => {
     return (
         <div className="user">
             <h2>User Details</h2>
+
             {profile && (
-                <div className="profile">
-                    <h3>{profile.name}</h3>
-                    <p className="email">{profile.email}</p>
-                    <a href={profile.website}>{profile.website}</a>
+                <div className="skeleton-profile">
+                    <div className="profile-item avatar">
+                        <Avatar alt="shivam bhatia" />
+                    </div>
+                    <div className="profile-item text">
+                        <h3 className="profile-name">{profile.name}</h3>
+                        <p className="email">{profile.email}</p>
+                        <a href={profile.website}>{profile.website}</a>
+                    </div>
                 </div>
             )}
 
-            {!profile && <div>Loading...</div>}
+            {!profile && (
+                <div className="skeleton-profile">
+                    <div className="profile-item avatar">
+                        <Skeleton
+                            animation="wave"
+                            variant="circle"
+                            width={70}
+                            height={70}
+                        />
+                    </div>
+                    <div className="profile-item text">
+                        <Skeleton
+                            className="avatar"
+                            animation="wave"
+                            height={15}
+                            width="50%"
+                            style={{ marginBottom: 6 }}
+                        />
+                        <Skeleton
+                            className="text"
+                            animation="wave"
+                            height={10}
+                            width="100%"
+                        />
+                        <Skeleton
+                            className="text"
+                            animation="wave"
+                            height={10}
+                            width="80%"
+                        />
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
