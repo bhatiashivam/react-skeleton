@@ -65,8 +65,3 @@ h2,
 .profile-item.avatar {
     flex: 1;
 }
-
-.email {
-    font-size: 10px;
-    margin-top: 10px;
-}
