@@ -13,7 +13,12 @@ React | Material UI
 
 ---
 
-### Screenshots of popular websites using Skeletons:
+### Screenshots of websites using Skeletons:
+##### Youtube
 <img src="https://miro.medium.com/max/945/0*ABjKedHjIe8El9RJ.png" alt="drawing"/>
+
+##### Google Drive
 <img src="https://miro.medium.com/max/945/0*Z47w4-DkaWPY92HO.png" alt="drawing"/>
+
+##### LinkedIn
 <img src="https://miro.medium.com/max/945/0*9uxZA3XMHNjJsLT5.png" alt="drawing"/>
