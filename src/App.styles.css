@@ -38,3 +38,12 @@ h2,
     grid-template-columns: 2fr 1fr;
     gap: 100px;
 }
+
+.article-skeleton {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.title-skeleton {
+    max-width: 50%;
+}

@@ -34,13 +34,15 @@ const Articles = () => {
                         <p>{article.body}</p>
                     </div>
                 ))}
-
             {!articles &&
                 [1, 2, 3, 4, 5].map((value) => {
                     return (
-                        <div key={value}>
+                        <div key={value} className="article-skeleton">
                             <Typography variant="h3" key={value}>
-                                <Skeleton animation="pulse"></Skeleton>
+                                <Skeleton
+                                    animation="pulse"
+                                    className="title-skeleton"
+                                ></Skeleton>
                             </Typography>
                             <Typography variant="body1" key={value}>
                                 <Skeleton animation="wave"></Skeleton>
@@ -51,8 +53,6 @@ const Articles = () => {
                         </div>
                     );
                 })}
-
-            {/* <Skeleton variant="rect" width={210} height={118} /> */}
         </div>
     );
 };
