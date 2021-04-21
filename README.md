@@ -14,6 +14,6 @@ React | Material UI
 ---
 
 ### Screenshots of popular websites using Skeletons:
-<img src="https://miro.medium.com/max/945/0*ABjKedHjIe8El9RJ.png" alt="drawing" width="200" />
-<img src="https://miro.medium.com/max/945/0*Z47w4-DkaWPY92HO.png" alt="drawing" width="200" />
-<img src="https://miro.medium.com/max/945/0*9uxZA3XMHNjJsLT5.png" alt="drawing" width="200" />
+<img src="https://miro.medium.com/max/945/0*ABjKedHjIe8El9RJ.png" alt="drawing"/>
+<img src="https://miro.medium.com/max/945/0*Z47w4-DkaWPY92HO.png" alt="drawing"/>
+<img src="https://miro.medium.com/max/945/0*9uxZA3XMHNjJsLT5.png" alt="drawing"/>
