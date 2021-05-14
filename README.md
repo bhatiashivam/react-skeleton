@@ -8,7 +8,7 @@
 ### What are Skeletons?
 - Skeleton screens (as splash screens), when used to indicate that a screen is loading, are perceived as being shorter in duration when compared against a blank screen (our control) and a spinner.
 - Skeleton screens should not block gradual content loads (real content should replace skeleton objects immediately when the data is available).
-- In this project, use of motion within the skeleton objects is achieved to retain user attention
+- In this project, use of motion within the skeleton objects is achieved to retain user attention.
 
 ---
 ## Made with:
